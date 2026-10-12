@@ -1,54 +1,46 @@
-* {
+*{
   box-sizing: border-box;
 }
-
-body {
+body{
   margin: 0;
   font-family: "Trebuchet MS", Arial, sans-serif;
   background: #fff9e9;
   color: #543c78;
 }
-
-header {
+header{
   text-align: center;
   padding: 35px 15px;
   background: linear-gradient(#80dcff, #c6f2ff);
   border-bottom: 8px solid #8bd45b;
 }
-
-header h1 {
+header h1{
   color: #ff62a5;
   font-size: 42px;
   text-shadow: 2px 3px white;
   margin: 0 0 12px;
 }
-
-header p {
+header p{
   color: #4d67c9;
   font-size: 20px;
   font-weight: bold;
 }
-
-main {
+main{
   max-width: 1200px;
   margin: 30px auto;
   padding: 0 20px;
 }
-
-main > h2 {
+main > h2{
   text-align: center;
   color: #ff8b28;
   font-size: 29px;
   margin-bottom: 30px;
 }
-
-.personajes {
+.personajes{
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 20px;
 }
-
-.tarjeta {
+.tarjeta{
   padding: 18px;
   text-align: center;
   border-radius: 28px;
@@ -56,35 +48,29 @@ main > h2 {
   box-shadow: 0 5px 12px #00000015;
   transition: transform 0.3s;
 }
-
-.tarjeta:hover {
+.tarjeta:hover{
   transform: translateY(-8px) rotate(-1deg);
 }
-
-.tarjeta img {
+.tarjeta img{
   width: 100%;
   height: 200px;
   object-fit: contain;
   background: #ffffffaa;
   border-radius: 20px;
 }
-
-.tarjeta h3 {
+.tarjeta h3{
   font-size: 22px;
   margin-bottom: 10px;
 }
-
-.tarjeta p {
+.tarjeta p{
   font-size: 16px;
   line-height: 1.6;
 }
-
-.tinky {
+.tinky{
   background: #dfc5ff;
   color: #632e99;
 }
-
-.dipsy {
+.dipsy{
   background: #c9f5ad;
   color: #236b36;
 }
@@ -98,8 +84,7 @@ main > h2 {
   background: #ffcadb;
   color: #a62d58;
 }
-
-.despedida {
+.despedida{
   margin-top: 35px;
   padding: 25px;
   text-align: center;
@@ -107,21 +92,17 @@ main > h2 {
   border: 4px dashed #85c953;
   border-radius: 30px;
 }
-
-.despedida h2 {
+.despedida h2{
   color: #ed7a22;
 }
-
-.despedida p {
+.despedida p{
   font-size: 18px;
   line-height: 1.6;
 }
-
-.despedida h3 {
+.despedida h3{
   color: #ed5791;
 }
-
-footer {
+footer{
   padding: 22px;
   text-align: center;
   background: #8bd45b;
@@ -129,19 +110,15 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
-
-@media (max-width: 900px) {
+@media (max-width: 900px){
   .personajes {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 @media (max-width: 500px) {
   header h1 {
     font-size: 30px;
   }
-
   .personajes {
     grid-template-columns: 1fr;
   }
-}
